@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  teamholidayslab.web:
+    image: teamholidayslabweb
+    build:
+      context: .
+      dockerfile: TeamHolidaysLab.Web/Dockerfile

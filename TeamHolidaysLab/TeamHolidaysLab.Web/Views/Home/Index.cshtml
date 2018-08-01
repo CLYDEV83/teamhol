@@ -1,0 +1,27 @@
+﻿@model IEnumerable<CalendarEventViewModel>
+
+<table class="unstriped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Duration</th>
+            <th>Returns</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            var cssClasses = (DateTime.Today >= item.Start.Date) ? "active " : "inactive ";
+
+            <tr class="@cssClasses">
+                <td data-label="Name">@item.FullName</td>
+                <td data-label="From">@item.StartFormatted</td>
+                <td data-label="To">@item.EndFormatted</td>
+                <td data-label="Duration">@item.DurationFormatted</td>
+                <td data-label="Returns">@item.ReturnsFormatted</td>
+            </tr>
+        }
+    </tbody>
+</table>

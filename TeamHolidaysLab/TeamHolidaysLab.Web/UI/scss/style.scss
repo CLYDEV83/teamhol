@@ -1,0 +1,89 @@
+﻿/** FONTS **/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+/** VENDOR **/
+
+/* foundation */
+@import 'foundation';
+@import 'util/mixins'; // mixins
+@import 'vendor/foundation/settings/settings';
+@include foundation-global-styles;
+// @include foundation-grid;
+// @include foundation-flex-grid;
+@include foundation-xy-grid-classes;
+@include foundation-typography;
+//@include foundation-button;
+//@include foundation-forms;
+// @include foundation-range-input;
+//@include foundation-accordion;
+//@include foundation-accordion-menu;
+//@include foundation-badge;
+//@include foundation-breadcrumbs;
+//@include foundation-button-group;
+//@include foundation-callout;
+//@include foundation-card;
+//@include foundation-close-button;
+//@include foundation-menu;
+//@include foundation-menu-icon;
+//@include foundation-drilldown-menu;
+//@include foundation-dropdown;
+//@include foundation-dropdown-menu;
+@include foundation-responsive-embed;
+//@include foundation-label;
+//@include foundation-media-object;
+//@include foundation-off-canvas;
+//@include foundation-orbit;
+//@include foundation-pagination;
+//@include foundation-progress-bar;
+//@include foundation-slider;
+//@include foundation-sticky;
+//@include foundation-reveal;
+//@include foundation-switch;
+@include foundation-table;
+//@include foundation-tabs;
+//@include foundation-thumbnail;
+//@include foundation-title-bar;
+//@include foundation-tooltip;
+//@include foundation-top-bar;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+@include foundation-flex-classes;
+
+/* fontawesome */
+/*@import 'vendor/fontawesome/fontawesome';
+@import 'vendor/fontawesome/fa-regular';
+@import 'vendor/fontawesome/fa-light';
+@import 'vendor/fontawesome/fa-solid';
+@import 'vendor/fontawesome/fa-brands';*/
+
+/* slick */
+/*@import 'vendor/slick/slick';
+@import 'vendor/slick/slick-theme';*/
+
+/* animate */
+/*@import 'vendor/animate/animate';*/
+
+/** CUSTOM **/
+/*@import 'custom/mixins';
+@import 'custom/variables';
+@import 'custom/partials/structure';
+@import 'custom/partials/type';
+@import 'custom/partials/forms';
+@import 'custom/partials/ctas';
+@import 'custom/partials/header';
+@import 'custom/partials/footer';
+@import 'custom/blocks/base';
+@import 'custom/blocks/articleblock';
+@import 'custom/blocks/textblock';
+@import 'custom/blocks/resultsblock';
+@import 'custom/blocks/splitblock';
+@import 'custom/blocks/newsblock';
+@import 'custom/blocks/carousel';
+@import 'custom/blocks/stickynav';
+@import 'custom/blocks/articlepage';
+@import 'custom/blocks/partnersblocks';
+@import 'custom/blocks/teamblock';
+@import 'custom/blocks/gridblock';*/
+
+
+@import 'custom/tables';
